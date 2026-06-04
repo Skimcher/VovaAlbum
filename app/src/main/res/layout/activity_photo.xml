@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8F0"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="← Назад"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#90A4AE"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Далее →"
+            android:backgroundTint="#FF7043"/>
+
+    </LinearLayout>
+
+</LinearLayout>
