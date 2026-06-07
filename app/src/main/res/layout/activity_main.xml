@@ -18,7 +18,7 @@
         android:id="@+id/btnVova"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:text="Вова"
+        android:text="ОКСАНА"
         android:textSize="22sp"
         android:backgroundTint="#FF7043"/>
 
